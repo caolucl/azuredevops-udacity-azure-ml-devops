@@ -18,7 +18,7 @@ jobs:
       run: make
       
     - name: Run check
-      run: make hello
+      run: make all
       
     - name: Run distcheck
       run: make distcheck
