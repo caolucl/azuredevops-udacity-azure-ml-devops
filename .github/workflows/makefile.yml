@@ -17,5 +17,9 @@ jobs:
     - name: Install dependencies
       run: make
       
-    - name: Run check
+    - name: Run make all
       run: make all
+    - name: Run multiple commands
+      run: |
+        echo run 1st,
+        echo run 2nd
